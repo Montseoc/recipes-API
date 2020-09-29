@@ -37,7 +37,7 @@ setSearch(e.target.value);
   return (
     <div className="App">
       <form onSubmit= {getSearch} className= "search-from">
-        <input className= "search-bar" type= "text" value={search} onChange={updateSearch}/>
+        <input className= "search-bar" type= "text" value={search} placeholder="Keyword" onChange={updateSearch}/>
         <button className= "search-button" type= "submit">Search</button>    
       </form>
       <div className="recipes">
@@ -47,7 +47,8 @@ setSearch(e.target.value);
         title={recipe.recipe.label} 
         calories={recipe.recipe.calories} 
         image= {recipe.recipe.image}
-        ingredients= {recipe.recipe.ingredients}/>
+        ingredients= {recipe.recipe.ingredients}
+        />
       ))};
       </div>
         </div>

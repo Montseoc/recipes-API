@@ -2,7 +2,9 @@
   min-height: 100vh;
   background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  align-content: space-around;
+
 }
 
 .search-form {
@@ -29,5 +31,22 @@
 .recipes {
   display:flex;
   color: rgb(85, 2, 74);
+  display:flex;
   flex-wrap: wrap;
+
 }
+
+.recipes ul{
+  list-style: none;
+  padding: 5px;
+  margin:0px;
+}
+
+.recipes h1{
+  margin: 0px;
+}
+
+.recipes p{
+  margin-top: 0px;
+}
+
