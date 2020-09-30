@@ -36,8 +36,11 @@ setSearch(e.target.value);
 
   return (
     <div className="App">
-      <form onSubmit= {getSearch} className= "search-from">
-        <input className= "search-bar" type= "text" value={search} placeholder="Keyword" onChange={updateSearch}/>
+      <div>
+        <h1 className="tittle"><strong>SEARCH A RECIPE</strong></h1>
+      </div>
+      <form onSubmit= {getSearch} className= "search-form">
+        <input className= "search-bar" type= "text" value={search} placeholder="Enter a keyword" onChange={updateSearch}/>
         <button className= "search-button" type= "submit">Search</button>    
       </form>
       <div className="recipes">

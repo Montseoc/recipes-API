@@ -2,9 +2,15 @@
   min-height: 100vh;
   background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
   text-align: center;
-  padding: 10px;
+  padding: 10px 20px;
   align-content: space-around;
 
+}
+
+.App h1{
+  color: rgb(85, 2, 74);
+  margin: 15px;
+  
 }
 
 .search-form {
@@ -12,12 +18,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:0px 15px 15px 15px;
+
 }
 
 .search-bar{
   width: 50%;
   border: none;
   padding: 10px;
+  margin:20px 0px 20px 20px;
   
 }
 
@@ -31,7 +40,6 @@
 .recipes {
   display:flex;
   color: rgb(85, 2, 74);
-  display:flex;
   flex-wrap: wrap;
 
 }
@@ -43,10 +51,10 @@
 }
 
 .recipes h1{
-  margin: 0px;
+  margin: 10px;
 }
 
 .recipes p{
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
